@@ -1,3 +1,5 @@
 FROM openjdk
 RUN MKDIR /java
 ADD d:/temp/Test.java /java
+VOLUME d://tempdata
+USER admin
